@@ -1,0 +1,15 @@
+{
+  "name": "elegantportfolio",
+  "version": "1.0.0",
+  "description": "portfolio page that is developed for employees and devs",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://isam123.github.io/elegantportfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
