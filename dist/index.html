@@ -45,11 +45,13 @@
 							    <ul class="navbar-nav">
 									<li><a href="#home">Home</a></li>
 									<li><a href="#service">Service</a></li>
-									<li><a href="#about">About</a></li>
+									
 									<li><a href="#project">Projects</a></li>
 									<li><a href="#contact">Contact</a></li>
+									<li><a href="#about" class="header-btn text-warning">Hire me</a></li>
+									
 								   <!-- Dropdown -->
-								    <li class="dropdown">
+								    <!-- <li class="dropdown">
 								      <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
 								        Pages
 								      </a>
@@ -57,7 +59,7 @@
 								        <a class="dropdown-item" href="generic.html">Generic</a>
 								        <a class="dropdown-item" href="elements.html">Elements</a>
 								      </div>
-								    </li>										
+								    </li> -->										
 							    </ul>
 							  </div>						
 						</div>
@@ -65,22 +67,40 @@
 				</header>
 				<!-- End Header Area -->				
 			<div class="container">
-				<div class="row justify-content-start align-items-center">
-					<div class="col-lg-6 col-md-12 no-padding banner-right">
-						<img class="img-fluid" src="img/header-img.png" alt="">
-					</div>						
-					<div class="col-lg-6 col-md-12 banner-left">
-						<h1 class="text-white">
-							Hi, I’m <br>
-							<span>Etta Jennings</span> <br>
-							Art Director						
-						</h1>
-						<p class="mx-auto text-white  mt-20 mb-40">
+				<div class="row justify-content-start  " style="height:400px">
+										
+					<div class="col-md-5 my-auto justify-content-center">
+						<h1 class="text-white ">
+							This 
+							<span>Isam</span> <br> </h1>
+							<p class="font-italic text-white ">Your Web Designer and Developer Partner !</p>
+							
+  
+
+
+						<!-- <p class="mx-auto text-white  mt-20 mb-40">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br> or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-						</p>
-						<a href="#" class="text-uppercase header-btn">Let Us Talk</span></a>
+						</p> -->
+						<a href="#" class="text-uppercase header-btn mb-5">Let Us Talk</span></a>
 					</div>
+					<div class="col-md-7 my-auto">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+    <div class="carousel-item active">
+      <p class="h1 text-white font-italic">Faster than your <span class="text-warning">excpectaion</span></p>
+    </div>
+    <div class="carousel-item">
+      <p class="h1 text-white font-italic">Effective <span class="text-warning">timing</span> </p>
+    </div>
+    <div class="carousel-item">
+      <p class="h1 text-white font-italic">Innovate with <span class="text-warning">Us!</span></p>
+    </div>
+  </div>
+  
+</div>
+</div>
 				</div>
+
 			</div>
 			</section>
 			<!-- End banner Area -->	
@@ -96,7 +116,7 @@
 							</div>
 						</div>
 					</div>						
-					<div class="row">
+					<div class="row mx-auto">
 						<div class="single-service col-lg-6 col-md-6 mb-30">
 							<div class="icon">
 								<img src="img/s1.png" alt="">
@@ -503,5 +523,11 @@
 			<script src="js/jquery.sticky.js"></script>
 
 			<script src="js/main.js"></script>	
+			<script type="text/javascript">
+				
+				$('.carousel').carousel({
+               interval: 2000
+             })
+			</script>
 		</body>
 	</html>
